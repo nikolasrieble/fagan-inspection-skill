@@ -217,24 +217,6 @@ A brief training program should cover:
    - Time overruns
    - Incomplete follow-up
 
-### Success Factors for Moderators
-
-**What makes a great moderator:**
-- Keeps team focused on finding errors
-- Creates synergistic team effect
-- Maintains positive atmosphere
-- Documents thoroughly and quickly
-- Follows up persistently
-- Continuously improves process
-
-**What undermines moderator effectiveness:**
-- Letting meetings become debugging sessions
-- Allowing time to exceed 2 hours
-- Incomplete or delayed reporting
-- Weak follow-up
-- Using inspection results against programmers
-- Being too technical or too process-focused
-
 ---
 
 ## Designer
@@ -475,40 +457,6 @@ Provide testability and quality perspective.
 - Don't artificially inflate beyond 4
 - Additional specialists join for specific sections
 - Rotating team members for different modules
-
----
-
-## Role Interaction Dynamics
-
-### Healthy Dynamics
-- Mutual respect among all participants
-- Collaborative error finding
-- Professional questioning
-- Accepting feedback constructively
-- Shared goal of quality
-
-### Unhealthy Dynamics to Avoid
-- Designer becomes defensive
-- Coder criticizes design choices
-- Tester finds fault personally
-- Moderator becomes too authoritarian
-- Team becomes adversarial
-
-### Moderator's Role in Team Dynamics
-
-**Create positive environment:**
-- Emphasize team goal: find errors
-- Remind: errors are opportunities to improve
-- Prevent personal criticism
-- Recognize contributions
-- Keep discussion professional
-- Use humor appropriately
-
-**The "Coach" Approach:**
-- Moderator as coach, not referee
-- Team as collaborative, not competitive
-- Errors as learning, not failure
-- Inspection as improvement, not judgment
 
 ---
 

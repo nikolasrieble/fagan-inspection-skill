@@ -1,16 +1,8 @@
 # Sample Fagan Inspection Session
 
-**Purpose:** Complete example showing a realistic Fagan inspection workflow with Claude Code.
-
-**Use this to:** Understand what to expect from an inspection, see example error classifications, learn the inspection dialogue flow.
+Complete example showing a realistic Fagan inspection workflow with Claude Code.
 
 **Scenario:** Security-critical authentication module review before deployment.
-
----
-
-This example shows what a typical Fagan inspection session looks like when using this skill with Claude Code.
-
----
 
 ## Scenario
 
@@ -327,52 +319,4 @@ You can file these reports for:
 - Audit trail for critical code
 - Training new developers on common errors
 
----
 
-## Key Takeaways from This Example
-
-### What Claude Did Well
-
-1. **Systematic coverage** - Checked every line, every branch
-2. **Security focus** - Prioritized security issues (authentication, tokens, rate limiting)
-3. **Clear classifications** - Each error classified as TYPE/CATEGORY/SEVERITY
-4. **Actionable descriptions** - Specific line numbers, clear impact statements
-5. **Reinspection verification** - Verified fixes didn't introduce new errors
-
-### How the Process Helped
-
-1. **Found critical issues** before deployment (brute force vulnerability, missing token expiration)
-2. **Prevented production crashes** (null pointer, database errors)
-3. **Systematic approach** ensured nothing was missed
-4. **Clear priorities** (major vs. minor) helped focus rework
-5. **Metrics tracked** for process improvement
-
-### Time Investment vs. Value
-
-**Time spent:**
-- Initial inspection: 30 minutes
-- Developer fixes: 2 hours  
-- Re-inspection: 15 minutes
-- **Total: ~2h 45m**
-
-**Value delivered:**
-- Prevented 5 major production issues
-- Would have taken days/weeks to debug in production
-- Cost savings: **10-100x** (per Fagan research)
-
-### Realistic Expectations
-
-**What Fagan catches:**
-- ✅ Logic errors and missing edge cases
-- ✅ Security vulnerabilities  
-- ✅ Error handling gaps
-- ✅ Interface misuse
-- ✅ Resource management issues
-
-**What it doesn't catch:**
-- ❌ Design-level architecture problems (use I₁ for that)
-- ❌ Performance under load (use profiling)
-- ❌ Integration issues (use testing)
-- ❌ UX problems (use user testing)
-
-**Best used:** As one part of comprehensive quality strategy, not as sole review method.

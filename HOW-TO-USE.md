@@ -1,16 +1,6 @@
 # How to Use the Fagan Code Review Skill
 
-**Purpose:** Step-by-step instructions for conducting Fagan inspections with Claude Code (AI-assisted) or human teams.
-
-**Audience:** Developers, code reviewers, quality engineers, team leads.
-
-**Prerequisites:** Basic understanding of code review concepts. For full methodology details, see SKILL.md.
-
----
-
-This guide provides step-by-step instructions for using the Fagan Code Review skill in different scenarios.
-
----
+Step-by-step instructions for conducting Fagan inspections with Claude Code (AI-assisted) or human teams.
 
 ## Table of Contents
 
@@ -576,32 +566,26 @@ Use lightweight review instead, or self-inspection with checklists.
 
 ---
 
-## Questions?
+## Common Questions
 
-**"What's the difference between I₁ and I₂?"**
+**What's the difference between I₁ and I₂?**
 - I₁ = Design inspection (before coding)
 - I₂ = Code inspection (after first compile)
 
-**"How long does an inspection take?"**
+**How long does an inspection take?**
 - Preparation: 1-2 days (background activity)
 - Meeting: 2 hours max
 - Rework: Varies by error count
 - Total: ~3-5 days for formal inspection
 
-**"Can I use this for solo development?"**
-- Yes! Use checklists for self-inspection
-- Ask Claude to act as inspection team
-- Focus on systematic coverage
+**Can I use this for solo development?**
+- Yes. Use checklists for self-inspection or ask Claude to act as inspection team.
 
-**"What if I find >50 errors?"**
-- Code isn't ready for inspection
-- Fix obvious errors first
-- Return to inspection when cleaner
+**What if I find >50 errors?**
+- Code isn't ready for inspection. Fix obvious errors first, then return to inspection.
 
-**"Should every PR use Fagan?"**
-- No - use for critical/high-risk changes
-- Lightweight review for routine changes
-- Full Fagan for: security, core logic, API changes
+**Should every PR use Fagan?**
+- No. Use for critical/high-risk changes. Lightweight review for routine changes.
 
 ---
 

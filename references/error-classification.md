@@ -96,7 +96,7 @@ Error types identify the nature of the defect. Track these to understand error p
 - Design inspections (I₁)
 - System design
 
-### PR - Prologue/Prose
+### PR - Prologue/Documentation
 **Definition**: Errors in documentation, comments, or explanatory text
 
 **Examples:**
@@ -454,25 +454,6 @@ Indicates the impact of the error.
 
 ## Using Classifications for Process Improvement
 
-### Track Error Type Distributions
-
-Monitor which types occur most frequently:
-- If **LO** is high: Focus on logic training, better design reviews
-- If **IC** is high: Focus on interface documentation, integration testing
-- If **TB** is high: Emphasize edge case thinking, better test coverage
-- If **MN** is high: Improve coding standards, refactoring practices
-
-### Analyze by Category
-
-- High **M (Missing)**: Checklists not being used effectively
-- High **W (Wrong)**: Requirements unclear or misunderstood
-- High **E (Extra)**: Code bloat, need refactoring discipline
-
-### Prioritize by Severity
-
-- **MAJ** errors: Cannot proceed until fixed
-- **MIN** errors: Track as technical debt, fix when practical
-
 ### Create Targeted Checklists
 
 If your team consistently has:
@@ -484,7 +465,6 @@ If your team consistently has:
 
 Share error distributions with team:
 - "Last 3 inspections: 40% of errors were TB/M (missing null checks)"
-- "Focus preparation on null checking and boundary conditions"
 - Update checklists based on patterns
 - Train on common error types
 

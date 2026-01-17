@@ -10,11 +10,9 @@ A systematic code inspection methodology based on Michael Fagan's formal inspect
 
 ## Quick Start
 
-**For AI-assisted inspection:** Simply ask Claude to conduct a Fagan inspection:
+**For AI-assisted inspection:**
 ```
 "Conduct a Fagan inspection on src/auth/login.js"
-"Review PR #123 using Fagan inspection"
-"Conduct Fagan I₁ design inspection on [design-doc]"
 ```
 
 **For detailed usage instructions:** See [HOW-TO-USE.md](HOW-TO-USE.md) for step-by-step guides and examples.
@@ -42,7 +40,7 @@ A systematic code inspection methodology based on Michael Fagan's formal inspect
 
 **Early Detection**: Find errors as close to origin as possible (10-100× cost savings).
 
-## Quick Start: The 5-Phase Process
+## The 5-Phase Process
 
 ### 1. Overview (Optional - Team Meeting)
 - **When**: New material or new team members
@@ -143,7 +141,7 @@ Classify each error by three dimensions:
 **Category**: M (Missing), W (Wrong), E (Extra)
 **Severity**: Major (causes malfunction) or Minor (lesser impact)
 
-Example: `LO/M/MAJ` = Logic error, something missing, major severity
+Example: `LO/M/MAJ` = Logic error, Missing, Major severity
 
 **Load `references/error-classification.md` for complete taxonomy.**
 
@@ -155,9 +153,9 @@ Example: `LO/M/MAJ` = Logic error, something missing, major severity
 - **Inspection rate**: LOC per hour
 - **Rework effort**: Hours per K.LOC
 
-### Target Results
+### Target Results (from Fagan 1976 research)
 - 60-82% error detection efficiency
-- 20%+ productivity improvement
+- 20%+ productivity improvement vs. no inspection
 - 38% fewer errors vs. informal reviews
 
 ### Use Metrics For
@@ -201,7 +199,7 @@ The checklists provide systematic prompts for finding common error types:
 Key insights:
 - Preparation is individual, inspection is team
 - 2-hour time limit is critical for efficiency
-- Moderator training is essential (brief but very advantageous)
+- Moderator training is essential
 - Follow-up is mandatory, not optional
 - Reinspection threshold: >5% rework
 
@@ -320,15 +318,6 @@ Load these on-demand during inspections:
 ## Scripts and Tools
 
 - **scripts/inspection_report.py** - Generate formal inspection reports with error tracking and metrics
-
-## Expected Outcomes
-
-When properly executed:
-- **23% productivity increase** from reduced rework
-- **38% fewer errors** reaching testing
-- **60-82% of errors** found before testing
-- **10-100× cost savings** vs. late-stage error fixes
-- **Continuous improvement** through error pattern analysis
 
 ## References
 

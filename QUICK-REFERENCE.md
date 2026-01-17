@@ -1,16 +1,6 @@
 # Fagan Inspection Quick Reference
 
-**Purpose:** One-page quick reference card for Fagan inspection essentials.
-
-**Use this when:** You need a quick reminder of commands, rates, rules, or error classifications during an inspection.
-
-**For complete details:** See SKILL.md, HOW-TO-USE.md, and reference documents.
-
----
-
 One-page reference for conducting Fagan inspections.
-
----
 
 ## Basic Commands (With Claude)
 
@@ -299,15 +289,6 @@ Before calling inspection complete:
 - **Detailed checklists:** See references/checklists.md
 - **Usage guide:** See HOW-TO-USE.md
 - **Example session:** See examples/sample-inspection-session.md
-
----
-
-## Key Insight from Fagan (1976)
-
-> "The cost of fixing a defect increases by 10-100× as it moves through the 
-> development cycle. Find errors as close to their origin as possible."
-
-**Implication:** Invest time in systematic inspection early. It's always cheaper than debugging in production.
 
 ---
 

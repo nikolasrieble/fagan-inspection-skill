@@ -495,31 +495,6 @@ Use when inspecting changes, fixes, or modifications.
 
 ---
 
-## Checklist Usage Tips
-
-### Don't Be Mechanical
-- Use checklists as prompts, not rigid scripts
-- Think about the intent behind each item
-- Adapt items to specific code being reviewed
-
-### Focus on High-Value Items
-- Prioritize items that find major errors
-- Skip items not applicable to current code
-- Add custom items for specific modules
-
-### Update Regularly
-- Add items when new error patterns emerge
-- Remove items that never find errors
-- Share effective items across team
-
-### Combine with Paraphrasing
-- Reader paraphrases implementation
-- Team applies checklist mentally
-- Questions reveal errors
-- Synergistic effect finds more than either alone
-
----
-
 ## Preparation Checklist
 
 Before you begin inspection, ensure:
@@ -530,7 +505,3 @@ Before you begin inspection, ensure:
 - [ ] Recent error distributions reviewed
 - [ ] Questions and potential errors noted
 - [ ] Ready to contribute in inspection meeting
-
----
-
-Remember: The goal is not to check every box, but to systematically examine the code to find errors. Use checklists as a tool to guide thorough inspection, not as a substitute for thinking.

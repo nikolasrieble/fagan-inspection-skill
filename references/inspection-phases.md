@@ -4,25 +4,13 @@ This document provides detailed guidance on each of the five inspection operatio
 
 ## Overview of the Process
 
-```
-Entry Criteria
-     ↓
-[1. Overview] ← Optional for new material/team
-     ↓
-[2. Preparation] ← Individual study with checklists
-     ↓
-[3. Inspection Meeting] ← Team error finding (2hr max)
-     ↓
-[4. Rework] ← Author fixes all errors
-     ↓
-[5. Follow-Up] ← Moderator verifies fixes
-     ↓
-Decision Point:
-  >5% reworked → Full reinspection (return to step 1)
-  <5% reworked → Moderator discretion
-     ↓
-Exit Criteria Met → Proceed to next phase
-```
+1. **Overview** (optional) - Team meeting for new material
+2. **Preparation** - Individual study with checklists
+3. **Inspection Meeting** - Team error finding (2hr max)
+4. **Rework** - Author fixes all errors
+5. **Follow-Up** - Moderator verifies fixes
+
+**Reinspection:** Required if >5% reworked, otherwise moderator discretion.
 
 ---
 
@@ -217,24 +205,6 @@ All inspection team members work **individually**.
 - Keep questions focused on error identification
 - Use tact and sensitivity to maintain positive atmosphere
 - Ensure all team members can contribute
-
-### What Makes a Good Inspection Meeting
-
-**✅ Effective patterns:**
-- Reader paraphrasing reveals misunderstandings
-- Team finds errors missed in preparation
-- Questions quickly identify issues
-- All material covered systematically
-- Checklist items trigger error discoveries
-- Synergistic effect: team finds more than individuals
-
-**❌ Ineffective patterns:**
-- Turning into debugging session
-- Solution hunting consuming time
-- Design alternative debates
-- Reader just reading verbatim
-- Skipping "obvious" sections
-- Meeting exceeding 2 hours
 
 ### Coverage Requirements
 

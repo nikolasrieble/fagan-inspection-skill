@@ -28,7 +28,6 @@ VALID_ERROR_TYPES = {
 }
 VALID_CATEGORIES = {"M", "W", "E"}
 VALID_SEVERITIES = {"MAJ", "MIN"}
-MAJOR_ERROR_THRESHOLD = 5  # Threshold for reinspection fallback
 
 
 class Error:
@@ -184,15 +183,18 @@ class InspectionReport:
             rework_percentage = (eloc_reworked / self.metrics["eloc_estimate_pre"]) * 100
             reinspection_needed = rework_percentage > 5
         else:
-            # Fallback when ELOC data unavailable: use major error count threshold
-            # Note: This is a heuristic and not aligned with Fagan's percentage-based approach
-            reinspection_needed = len([e for e in self.errors if e.severity == "MAJ"]) > MAJOR_ERROR_THRESHOLD
+            # When ELOC unavailable, moderator must determine reinspection need manually
+            reinspection_needed = False
         
         output.append("REINSPECTION DECISION")
         output.append("-" * 40)
-        output.append(f"Reinspection Required: {'YES' if reinspection_needed else 'NO'}")
-        if reinspection_needed:
-            output.append("Reason: >5% of material reworked or >5 major errors")
+        if self.metrics.get("eloc_estimate_pre", 0) > 0:
+            output.append(f"Reinspection Required: {'YES' if reinspection_needed else 'NO'}")
+            if reinspection_needed:
+                output.append("Reason: >5% of material reworked")
+        else:
+            output.append("Reinspection Required: MANUAL DECISION")
+            output.append("Reason: ELOC data unavailable - moderator must decide")
         output.append("")
         
         return "\n".join(output)
