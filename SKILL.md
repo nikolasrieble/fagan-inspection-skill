@@ -1,7 +1,9 @@
 ---
 name: fagan-code-review
-description: Perform systematic code reviews using the Fagan inspection methodology. Use for formal code inspections, design reviews, pull request reviews, and quality audits. Focuses on finding errors through structured team inspection with defined roles, checklists, and metrics.
+description: Systematic code inspection methodology for finding errors through structured team review. Based on Michael Fagan's formal inspection process (1976). Use for code reviews, design reviews, and quality audits.
 license: Apache-2.0
+version: 1.0.0
+tags: [code-review, quality-assurance, inspection, methodology, error-detection]
 ---
 
 # Fagan Code Review
