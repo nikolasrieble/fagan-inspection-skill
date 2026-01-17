@@ -1,0 +1,31 @@
+# Generated inspection reports
+*_error-list.txt
+*_module-detail.txt
+*_summary.txt
+*_data.json
+
+# Report output directories
+reports/
+output/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual environments
+venv/
+env/
+.venv/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS files
+.DS_Store
+Thumbs.db
